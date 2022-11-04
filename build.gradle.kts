@@ -1,7 +1,7 @@
 plugins {
     id("org.jetbrains.compose") version "1.3.0-alpha01-dev824"
     kotlin("multiplatform") version "1.7.20"
-    id("org.jetbrains.gradle.apple.applePlugin") version "222.3345.143-0.16"
+    id("org.jetbrains.gradle.apple.applePlugin") version "222.3345.143-0.17"
 }
 
 repositories {
@@ -63,7 +63,7 @@ apple {
         sceneDelegateClass = "SceneDelegate"
         launchStoryboard = "LaunchScreen"
         dependencies {
-            implementation(project(":"))
+            implementation(project(":")) //TODO also I tried to remove this dependency
         }
     }
 }
