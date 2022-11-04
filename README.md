@@ -7,5 +7,5 @@
  - Debug swift files
 
 ### Cons:
- - Not stable. Often breaks.
+ - Not stable. May breaks.
  - Don't know how to run on real device
