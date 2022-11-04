@@ -63,7 +63,7 @@ apple {
         sceneDelegateClass = "SceneDelegate"
         launchStoryboard = "LaunchScreen"
         dependencies {
-            implementation(project(":")) //TODO also I tried to remove this dependency
+//            implementation(project(":")) //TODO also I tried to remove this dependency
         }
     }
 }
