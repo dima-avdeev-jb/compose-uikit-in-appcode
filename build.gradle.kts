@@ -1,7 +1,7 @@
 plugins {
     id("org.jetbrains.compose") version "1.3.0-alpha01-dev824"
     kotlin("multiplatform") version "1.7.20"
-    id("org.jetbrains.gradle.apple.applePlugin") version "222.3345.143-0.17"
+    id("org.jetbrains.gradle.apple.applePlugin") version "222.3345.143-0.17-dev-1"
 }
 
 repositories {
