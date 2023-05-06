@@ -1,8 +1,7 @@
 package org.jetbrains.skiko.sample
 
-import androidx.compose.ui.window.Application
-import org.jetbrains.skiko.sample.*
+import androidx.compose.ui.window.ComposeUIViewController
 
-fun getSkikoViewController() = Application("Compose uikit") {
+fun getSkikoViewController() = ComposeUIViewController {
     Hello()
 }
